@@ -51,6 +51,9 @@
     <update id="updateuser" parameterType="user">
         update user11 set name =#{name},password=#{password},where id = #{id}
     </update>-->
+    <insert id="add" parameterType="payment"  >
+        insert into user11(id,serial) values(#{id},#{serial}};
+    </insert>
     <insert id="create" parameterType="payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial) values(#{serial});
     </insert>

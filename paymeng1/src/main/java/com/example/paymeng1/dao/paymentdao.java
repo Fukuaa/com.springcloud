@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Mapper
 public interface paymentdao {
-
+    payment add(payment payment);
     int create(payment payment);
     //@Select(" select * from payment where id = #{id}")
     payment byid(@Param("id") int id);

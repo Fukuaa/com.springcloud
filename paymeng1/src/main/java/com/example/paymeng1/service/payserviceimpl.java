@@ -11,6 +11,12 @@ import javax.annotation.Resource;
 public class payserviceimpl implements payserbice{
     @Resource
     private paymentdao payserbice;
+
+    @Override
+    public payment add(payment payment) {
+       return   payserbice.add(payment);
+    }
+
     @Override
     public int create(payment payment) {
         return payserbice.create(payment);
