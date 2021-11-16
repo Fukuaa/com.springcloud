@@ -54,11 +54,11 @@
     <insert id="create" parameterType="payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial) values(#{serial});
     </insert>
-    <resultMap id="BaseResultMap" type="com/example/paymeng1/entities/payment">
-        <id column="id" property="id" jdbcType="int"/>
-        <id column="serial" property="serial" jdbcType="varchar"/>
-    </resultMap>
-    <select id="byid" parameterType="int" resultMap="BaseResultMap">
-        select * from payment where id=#{id};
+    <!--<resultMap id="BaseResultMap" type="com.example.paymeng1.entities.payment">
+        <id column="id" property="id" jdbcType="INT"/>
+        <id column="serial" property="serial" jdbcType="VARCHAR"/>
+    </resultMap>-->
+    <select id="byid" parameterType="int" resultType="payment">
+        select * from payment where id = #{id}
     </select>
 </mapper>
