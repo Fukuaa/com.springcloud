@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   application:
     name: paymeng1
@@ -20,4 +20,4 @@ eureka:
       #defaultZone: http://{eurwka.instance.hostname}:${server.port}/eureka/
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.example.paymeng1.entities
+  type-aliases-package: com.example.payment.entities

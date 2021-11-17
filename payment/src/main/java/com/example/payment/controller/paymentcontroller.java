@@ -1,15 +1,14 @@
-package com.example.paymeng1.controller;
+package com.example.payment.controller;
 
-import com.example.paymeng1.entities.commonresult;
-import com.example.paymeng1.entities.payment;
-import com.example.paymeng1.service.payserbice;
+
+import com.example.payment.entities.commonresult;
+import com.example.payment.entities.payment;
+import com.example.payment.service.payserbice;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.websocket.server.PathParam;
 
 @RestController
 @Slf4j
@@ -17,7 +16,7 @@ public class paymentcontroller {
     @Value("${server.port}")
     private String serverPort;
     @Resource
-    private payserbice payserbice;
+    private com.example.payment.service.payserbice payserbice;
     @PostMapping(value = "/create")
     public commonresult create(@RequestBody payment payment){
         int result = payserbice.create(payment);

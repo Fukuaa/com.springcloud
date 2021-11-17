@@ -8,12 +8,11 @@
     <artifactId>com.springcloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>paymeng</module>
     </modules>
     <packaging>pom</packaging>
 
     <!--统一管理jar版本-->
-    <properties>
+    <!--<properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,11 +25,11 @@
         <log4j.version>1.2.12</log4j.version>
         <junit.version>4.13</junit.version>
         <lombok.version>1.18.12</lombok.version>
-    </properties>
+    </properties>-->
     <!--锁定子模块版本-->
-    <dependencyManagement>
+    <!--<dependencyManagement>
         <dependencies>
-            <!--springCloud 的依赖-->
+            &lt;!&ndash;springCloud 的依赖&ndash;&gt;
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -38,7 +37,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--springBoot 的依赖-->
+            &lt;!&ndash;springBoot 的依赖&ndash;&gt;
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -46,7 +45,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--数据库-->
+            &lt;!&ndash;数据库&ndash;&gt;
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -57,26 +56,26 @@
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-            <!--springboot 启动器-->
+            &lt;!&ndash;springboot 启动器&ndash;&gt;
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.spring.boot.starter.version}</version>
             </dependency>
-            <!--log4j-->
+            &lt;!&ndash;log4j&ndash;&gt;
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
-            <!--junit-->
+            &lt;!&ndash;junit&ndash;&gt;
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
-            <!--lombok-->
+            &lt;!&ndash;lombok&ndash;&gt;
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
@@ -111,8 +110,8 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-    </dependencyManagement>
-    <build>
+    </dependencyManagement>-->
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -124,5 +123,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 </project>

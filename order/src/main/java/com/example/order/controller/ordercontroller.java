@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 public class ordercontroller {
-    public static final String P_url="http://localhost:8081";
+    public static final String P_url="http://PAYMENG1";
     @Resource
     private RestTemplate restTemplate;
     @RequestMapping(value = "/consumer/create",method = RequestMethod.GET)
