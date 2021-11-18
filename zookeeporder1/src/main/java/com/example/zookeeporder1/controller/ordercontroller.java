@@ -12,14 +12,13 @@ import javax.annotation.Resource;
 
 @RestController
 @Slf4j
-@EnableDiscoveryClient
 public class ordercontroller {
     @Value("${server.port}")
     private String serverPort;
     public static final String P_url="http://order";
     @Resource
     private RestTemplate restTemplate;
-    @RequestMapping(value = "/consumer/create",method = RequestMethod.GET)
+    /*@RequestMapping(value = "/consumer/create",method = RequestMethod.GET)
     public commonresult<payment> commonresult( payment payment){
         System.out.println(payment);
         return restTemplate.postForObject(P_url+"/create",payment,commonresult.class);
@@ -27,14 +26,14 @@ public class ordercontroller {
     @GetMapping("/consumer/byid/{id}")
     public commonresult<payment> getp(@PathVariable("id") int id){
         return restTemplate.getForObject(P_url+"/byid/"+id,commonresult.class);
-    }
+    }*/
     @RequestMapping("/p")
-    public commonresult<payment> getp1(){
-        return restTemplate.getForObject(P_url+"/p"+serverPort,commonresult.class);
+    public String getp1(){
+        return restTemplate.getForObject(P_url+"/p"+serverPort,String.class);
     }
-    @RequestMapping("/hello")
+    /*@RequestMapping("/hello")
     public String getp2(){
         return "hello";
-    }
+    }*/
 }
 

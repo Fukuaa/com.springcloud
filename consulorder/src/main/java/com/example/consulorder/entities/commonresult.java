@@ -1,4 +1,4 @@
-package com.example.zookeeporder1.entities;
+package com.example.consulorder.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
