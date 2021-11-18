@@ -1,4 +1,4 @@
-package com.example.zookeeper.controller;
+package com.example.zoo.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
-@EnableDiscoveryClient
+
 @RestController
 public class controller {
     @Value("${server.port}")

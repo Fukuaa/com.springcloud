@@ -1,4 +1,4 @@
-package com.example.order.cofig;
+package com.example.zookeeporder1.cofig;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

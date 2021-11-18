@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:
+  application:
+    name: order1
+  profiles:
+    active: dev
+  cloud:
+    zookeeper:
+      connect-string: 47.113.199.238:2181
+      config:
+        enabled: true
+

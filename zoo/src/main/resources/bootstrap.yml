@@ -1,8 +1,10 @@
-server:
-  port: 8004
 spring:
   application:
-    name: cloud-payment
+    name: order
   cloud:
     zookeeper:
+      config:
+        enabled: true
       connect-string: 47.113.199.238:2181
+server:
+  port: 9090

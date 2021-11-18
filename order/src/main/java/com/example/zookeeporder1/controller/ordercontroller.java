@@ -1,9 +1,8 @@
-package com.example.order.controller;
+package com.example.zookeeporder1.controller;
 
-import com.example.order.entities.commonresult;
-import com.example.order.entities.payment;
+import com.example.zookeeporder1.entities.commonresult;
+import com.example.zookeeporder1.entities.payment;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
