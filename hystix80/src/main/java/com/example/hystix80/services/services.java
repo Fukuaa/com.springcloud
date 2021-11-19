@@ -14,7 +14,7 @@ public interface services {
     /*public String p(Integer id);
     public String p1(Integer id);*/
     @RequestMapping("/p/{id}")
-    public String p(Integer id);
+    String p(Integer id);
     /*@RequestMapping("/p1/{id}")
     public String p1(Integer id);*/
     /*@GetMapping(value = "/byid/{id}")
