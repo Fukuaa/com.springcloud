@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/consulpayment/pom.xml" />
         <option value="$PROJECT_DIR$/consulorder/pom.xml" />
         <option value="$PROJECT_DIR$/feignorder/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/hystix80/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeporder1" />
-        <module name="paymeng1" />
+        <module name="hystrix" />
         <module name="zookeeper" />
+        <module name="hystix80" />
         <module name="eureka" />
         <module name="zoopayment" />
         <module name="consulpayment" />
         <module name="consulorder" />
+        <module name="paymeng1" />
         <module name="payment" />
         <module name="zoo" />
         <module name="feignorder" />
@@ -36,6 +38,8 @@
       <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="feignorder" options="-parameters" />
+      <module name="hystix80" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="paymeng" options="-parameters" />
       <module name="paymeng1" options="-parameters" />
