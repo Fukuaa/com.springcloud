@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/consul/consulpayment/pom.xml" />
         <option value="$PROJECT_DIR$/consulpayment/pom.xml" />
         <option value="$PROJECT_DIR$/consulorder/pom.xml" />
+        <option value="$PROJECT_DIR$/feignorder/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

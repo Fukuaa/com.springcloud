@@ -16,6 +16,7 @@
         <module name="consulorder" />
         <module name="payment" />
         <module name="zoo" />
+        <module name="feignorder" />
         <module name="order" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="consulpayment" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="feignorder" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="paymeng" options="-parameters" />
       <module name="paymeng1" options="-parameters" />
