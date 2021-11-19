@@ -9,3 +9,6 @@ eureka:
     fetch-registry: true
     service-url: #http://localhost:7001/eureka/
      defaultZone: http://localhost:7001/eureka/
+hystrix:
+  metrics:
+    enabled: true
