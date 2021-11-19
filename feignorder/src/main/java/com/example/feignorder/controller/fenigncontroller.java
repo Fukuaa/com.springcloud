@@ -23,4 +23,8 @@ public class fenigncontroller {
     public String p(@PathVariable("id") int id){
         return paymentfeign.p(id);
     }
+    @RequestMapping("/c/p1/{id}")
+    public String p1(@PathVariable("id") int id){
+        return paymentfeign.p1(id);
+    }
 }
