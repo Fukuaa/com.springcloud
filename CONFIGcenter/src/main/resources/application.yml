@@ -1,0 +1,19 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: configcenter
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Fukuaa/config.git
+          search-paths: config
+          password: 1464645627abc**
+          username: 1936534366@qq.com
+          default-label: main
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
