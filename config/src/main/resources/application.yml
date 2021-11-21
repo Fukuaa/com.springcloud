@@ -7,11 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Fukuaa/config.git
-          search-paths: config
-          password: 1464645627abc**
-          username: 1936534366@qq.com
-          default-label: main
+          uri: https://gitee.com/zhengqingfeng/zqf.git
+          search-paths:
+            - zqf
+          password: z123456+
+          username: 18771189524
+      label: master
 eureka:
   client:
     service-url:
