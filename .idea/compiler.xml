@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeporder1" />
         <module name="hystrix" />
+        <module name="config3355" />
         <module name="zookeeper" />
         <module name="hystix80" />
         <module name="eureka" />
@@ -39,6 +40,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CONFIGcenter" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="config3355" options="-parameters" />
       <module name="consulorder" options="-parameters" />
       <module name="consulpayment" options="-parameters" />
       <module name="demo" options="-parameters" />

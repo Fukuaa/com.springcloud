@@ -4,6 +4,8 @@ spring:
   application:
     name: configcenter
   cloud:
+    compatibility-verifier:
+      enabled: false
     config:
       server:
         git:
@@ -12,7 +14,8 @@ spring:
             - zqf
           password: z123456+
           username: 18771189524
-      label: master
+          default-label: main
+      label: main
 eureka:
   client:
     service-url:
