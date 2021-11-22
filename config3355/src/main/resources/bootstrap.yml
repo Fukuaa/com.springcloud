@@ -5,17 +5,36 @@ spring:
     name: config
   cloud:
     compatibility-verifier:
-      enabled: false
+    enabled: false
     config:
+      #discovery:
+      #enabled: true
+      #service-id: config
       uri:
-        http://localhost:3344/
+        http://localhost:3344
       profile:
-        dev
+        bata
       name:
         config
       label:
         master
+        #server:
+      #bootstrap: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
+  instance:
+    hostname: localhost
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+    #register-with-eureka: false
+    #fetch-registry: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
