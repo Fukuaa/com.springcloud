@@ -2,10 +2,10 @@ server:
   port: 3355
 spring:
   application:
-    name: config
+    name: config1
   cloud:
-    compatibility-verifier:
-    enabled: false
+    #compatibility-verifier:
+    #enabled: false
     config:
       #discovery:
       #enabled: true
