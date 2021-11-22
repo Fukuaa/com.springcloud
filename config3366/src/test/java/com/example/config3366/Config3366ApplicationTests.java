@@ -1,12 +1,10 @@
-package com.example.config3355;
+package com.example.config3366;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootTest
-@EnableEurekaClient
-class Config3355ApplicationTests {
+class Config3366ApplicationTests {
 
     @Test
     void contextLoads() {

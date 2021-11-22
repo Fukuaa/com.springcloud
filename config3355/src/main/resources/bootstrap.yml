@@ -2,13 +2,19 @@ server:
   port: 3355
 spring:
   application:
-    name: config3355
+    name: config
   cloud:
+    compatibility-verifier:
+      enabled: false
     config:
-      label: master
-      name: config
-      profile: dev
-      uri: http://localhost:3344
+      uri:
+        http://localhost:3344/
+      profile:
+        dev
+      name:
+        config
+      label:
+        master
 eureka:
   client:
     service-url:

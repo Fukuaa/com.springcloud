@@ -10,6 +10,7 @@
         <module name="zookeeporder1" />
         <module name="hystrix" />
         <module name="config3355" />
+        <module name="config3366" />
         <module name="zookeeper" />
         <module name="hystix80" />
         <module name="eureka" />
@@ -41,6 +42,7 @@
       <module name="CONFIGcenter" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config3355" options="-parameters" />
+      <module name="config3366" options="-parameters" />
       <module name="consulorder" options="-parameters" />
       <module name="consulpayment" options="-parameters" />
       <module name="demo" options="-parameters" />

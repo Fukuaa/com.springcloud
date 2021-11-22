@@ -7,7 +7,7 @@ spring:
     compatibility-verifier:
       enabled: false
     config:
-
+      label: master
       server:
         git:
           uri: https://github.com/Fukuaa/config.git
@@ -15,8 +15,9 @@ spring:
           username: fukuaa
           search-paths:
             config
+          default-label: master
         bootstrap: true
-      label: master
+
 eureka:
   client:
     service-url:
