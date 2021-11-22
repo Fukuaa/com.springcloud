@@ -2,22 +2,22 @@ server:
   port: 3344
 spring:
   application:
-    name: configcenter
+    name: config
   cloud:
     compatibility-verifier:
       enabled: false
     config:
+
       server:
         git:
-          uri: https://gitee.com/zhengqingfeng/zqf.git
+          uri: https://github.com/Fukuaa/config.git
+          password: 1464645627abc**
+          username: fukuaa
           search-paths:
-            - zqf
-          password: z123456+
-          username: 18771189524
-          default-label: main
-      label: main
+            config
+        bootstrap: true
+      label: master
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
-
