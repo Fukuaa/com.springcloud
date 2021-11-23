@@ -20,6 +20,7 @@
         <module name="geteway" />
         <module name="paymeng1" />
         <module name="hystrixdashbord" />
+        <module name="stream8803" />
         <module name="stream8802" />
         <module name="payment" />
         <module name="zoo" />
@@ -60,6 +61,7 @@
       <module name="payment" options="-parameters" />
       <module name="payment2" options="-parameters" />
       <module name="stream8802" options="-parameters" />
+      <module name="stream8803" options="-parameters" />
       <module name="streamrabbitmq" options="-parameters" />
       <module name="zoo" options="-parameters" />
       <module name="zookeeper" options="-parameters" />
