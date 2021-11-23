@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/config3355/pom.xml" />
         <option value="$PROJECT_DIR$/config3366/pom.xml" />
+        <option value="$PROJECT_DIR$/streamrabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/stream8802/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
