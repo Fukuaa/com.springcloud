@@ -1,0 +1,29 @@
+#spring:
+#application:
+#name: nacosconfig
+# cloud:
+# nacos:
+#config:
+#server-addr: localhost:8848
+# file-extension: properties
+#discovery:
+#server-addr: localhost:8848
+#server:
+#port: 3377
+#spring:
+#profiles:
+#active: dev
+spring:
+  application:
+    name: nacosconfig
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.23.132:1111
+      config:
+        file-extension: properties
+        server-addr: 192.168.23.132:1111
+server:
+  port: 3377

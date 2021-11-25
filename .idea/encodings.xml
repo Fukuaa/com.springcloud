@@ -18,6 +18,11 @@
     <file url="file://$PROJECT_DIR$/hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrix/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrixdashbord/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacosconfig1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacosconsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paymeng1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paymeng1/src/main/resources" charset="UTF-8" />

@@ -28,6 +28,10 @@
         <option value="$PROJECT_DIR$/streamrabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/stream8802/pom.xml" />
         <option value="$PROJECT_DIR$/stream8803/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos9001/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos9002/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosconfig1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

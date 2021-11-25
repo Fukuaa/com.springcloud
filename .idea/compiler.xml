@@ -8,31 +8,37 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeporder1" />
-        <module name="hystrix" />
         <module name="config3355" />
-        <module name="config3366" />
-        <module name="zookeeper" />
         <module name="hystix80" />
         <module name="eureka" />
         <module name="zoopayment" />
+        <module name="geteway" />
+        <module name="nacos9002" />
+        <module name="nacos9001" />
+        <module name="payment" />
+        <module name="zoo" />
+        <module name="nacosconfig1" />
+        <module name="order" />
+        <module name="streamrabbitmq" />
+        <module name="hystrix" />
+        <module name="config3366" />
+        <module name="zookeeper" />
+        <module name="nacosconsumer" />
         <module name="consulpayment" />
         <module name="consulorder" />
-        <module name="geteway" />
         <module name="paymeng1" />
         <module name="hystrixdashbord" />
         <module name="stream8803" />
         <module name="stream8802" />
-        <module name="payment" />
-        <module name="zoo" />
         <module name="feignorder" />
         <module name="config" />
-        <module name="order" />
-        <module name="streamrabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CONFIGcenter" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="nacos1" target="1.8" />
+      <module name="nacosconfig" target="1.8" />
       <module name="paymeng" target="8" />
       <module name="payment2" target="1.8" />
       <module name="untitled" target="8" />
@@ -55,6 +61,12 @@
       <module name="hystix80" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="hystrixdashbord" options="-parameters" />
+      <module name="nacos1" options="-parameters" />
+      <module name="nacos9001" options="-parameters" />
+      <module name="nacos9002" options="-parameters" />
+      <module name="nacosconfig" options="-parameters" />
+      <module name="nacosconfig1" options="-parameters" />
+      <module name="nacosconsumer" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="paymeng" options="-parameters" />
       <module name="paymeng1" options="-parameters" />
