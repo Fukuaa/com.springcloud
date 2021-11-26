@@ -20,6 +20,7 @@
         <module name="nacosconfig1" />
         <module name="order" />
         <module name="streamrabbitmq" />
+        <module name="sentinel" />
         <module name="hystrix" />
         <module name="config3366" />
         <module name="zookeeper" />
@@ -35,12 +36,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibabasentinel" target="1.8" />
+      <module name="alibabasentinele" target="1.8" />
       <module name="CONFIGcenter" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="nacos1" target="1.8" />
       <module name="nacosconfig" target="1.8" />
       <module name="paymeng" target="8" />
       <module name="payment2" target="1.8" />
+      <module name="sentinel" target="1.8" />
       <module name="untitled" target="8" />
       <module name="wrapper" target="1.5" />
       <module name="zookeeporder" target="1.8" />
@@ -49,6 +53,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CONFIGcenter" options="-parameters" />
+      <module name="alibabasentinel" options="-parameters" />
+      <module name="alibabasentinele" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="config3355" options="-parameters" />
       <module name="config3366" options="-parameters" />
@@ -72,6 +78,7 @@
       <module name="paymeng1" options="-parameters" />
       <module name="payment" options="-parameters" />
       <module name="payment2" options="-parameters" />
+      <module name="sentinel" options="-parameters" />
       <module name="stream8802" options="-parameters" />
       <module name="stream8803" options="-parameters" />
       <module name="streamrabbitmq" options="-parameters" />
