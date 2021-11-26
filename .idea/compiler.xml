@@ -13,6 +13,7 @@
         <module name="eureka" />
         <module name="zoopayment" />
         <module name="geteway" />
+        <module name="nacosfeign" />
         <module name="nacos9002" />
         <module name="nacos9001" />
         <module name="payment" />
@@ -73,6 +74,7 @@
       <module name="nacosconfig" options="-parameters" />
       <module name="nacosconfig1" options="-parameters" />
       <module name="nacosconsumer" options="-parameters" />
+      <module name="nacosfeign" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="paymeng" options="-parameters" />
       <module name="paymeng1" options="-parameters" />
