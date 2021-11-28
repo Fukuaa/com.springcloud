@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD me.Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.seata2002.dao">
+    <!--parameterType="int" resultType="my/dao/Userdao.java"-->
+    <!--<select id="getUserList" resultType="my.pojo.User">
+        SELECT * FROM user1;
+    </select>
+    <select id="getUserById" parameterType="String" resultType="my.pojo.User">
+        SELECT * FROM user1 where id = #{id};
+    </select>
+    <insert id="addUser" parameterType="my.pojo.User"  >
+        insert into user1(id,name,pwd,age) values(#{id},#{name},#{pwd},#{age});
+    </insert>
+    <insert id="addUser2" parameterType="map"  >
+        insert into user1(id,name,pwd,age) values(#{id},#{name},#{pwd},#{age});
+    </insert>
+    <update id="upDateUser" parameterType="my.pojo.User" >
+        update user1 set name =#{name } ,pwd = #{pwd} , id = #{id} where age = #{age};
+    </update>
+    <delete id="d" parameterType="String" >
+        delete from user1 where id=#{id};
+    </delete>
+    <select id="ById" parameterType="map" resultType="my.pojo.User">
+        SELECT * FROM user1 where id = #{id};
+    </select>
+    <select id="getUserLike"  resultType="my.pojo.User">
+        SELECT * FROM user1 where name like #{v};
+    </select>
+    <select id="duo"  resultMap="ut">
+        SELECT * FROM user1
+    </select>
+    <resultMap id="ut" type="my.pojo.User">
+        <association property="tch" column="tid" javaType="my.pojo.tch" select="gettch"></association>
+    </resultMap>
+    <select id="gettch"  resultType="my.pojo.tch">
+        SELECT * FROM teacher where tid = #{tid};
+    </select>-->
+    <!--<select id="queryuserlist" resultType="user">
+        select * from user11;
+    </select>
+    <select id="queryuserbyid" resultType="user">
+        select * from user11 where id = #{id};
+    </select>
+    <insert id="addUser" parameterType="user"  >
+        insert into user11(id,name,password) values(#{id},#{name},#{password};
+    </insert>
+    <delete id="deleteuser" parameterType="int">
+        delete from user11 where id=#{id};
+    </delete>
+    <update id="updateuser" parameterType="user">
+        update user11 set name =#{name},password=#{password},where id = #{id}
+    </update>-->
+    <!--<insert id="add" parameterType="payment"  >
+        insert into user11(id,serial) values(#{id},#{serial}};
+    </insert>
+    <insert id="create" parameterType="payment" useGeneratedKeys="true" keyProperty="id">
+        insert into payment(serial) values(#{serial});
+    </insert>-->
+    <!--<resultMap id="BaseResultMap" type="com.example.paymeng1.entities.payment">
+        <id column="id" property="id" jdbcType="INT"/>
+        <id column="serial" property="serial" jdbcType="VARCHAR"/>
+    </resultMap>-->
+    <!--<select id="byid" parameterType="int" resultType="payment">
+        select * from payment where id = #{id}
+    </select>-->
+    <!--
+    <insert id="create">
+        insert into order(id,user_id,product_id,money,status)
+        value (null,#{userid},#{productid},#{count},#{money},0)
+    </insert>
+    <update id="update">
+        update order set status = 1 where user_id=#{userid} status = #{status};
+    </update>-->
+    <resultMap id="b" type="com.example.seata2002.domain.order">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="product_id" property="productid" jdbcType="BIGINT"/>
+        <result column="total" property="total" jdbcType="INTEGER"/>
+        <result column="used" property="used" jdbcType="INTEGER"/>
+        <result column="residue" property="residue" jdbcType="INTEGER"/>
+    </resultMap>
+    <update id="de">
+        update storage set used = used + #{count},residue = residue - #{count}
+        where product_id = #{product_id}
+    </update>
+</mapper>

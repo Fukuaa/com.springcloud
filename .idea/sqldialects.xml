@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/paymeng1/src/main/resources/mapper/paymentmapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/seata-order/src/main/resources/mapper/ordermapper.xml" dialect="GenericSQL" />
   </component>
 </project>

@@ -12,7 +12,9 @@
         <module name="hystix80" />
         <module name="eureka" />
         <module name="zoopayment" />
+        <module name="seata2003" />
         <module name="geteway" />
+        <module name="seata2002" />
         <module name="nacosfeign" />
         <module name="nacos9002" />
         <module name="nacos9001" />
@@ -32,6 +34,7 @@
         <module name="hystrixdashbord" />
         <module name="stream8803" />
         <module name="stream8802" />
+        <module name="seata-order" />
         <module name="feignorder" />
         <module name="config" />
       </profile>
@@ -80,6 +83,9 @@
       <module name="paymeng1" options="-parameters" />
       <module name="payment" options="-parameters" />
       <module name="payment2" options="-parameters" />
+      <module name="seata-order" options="-parameters" />
+      <module name="seata2002" options="-parameters" />
+      <module name="seata2003" options="-parameters" />
       <module name="sentinel" options="-parameters" />
       <module name="stream8802" options="-parameters" />
       <module name="stream8803" options="-parameters" />
