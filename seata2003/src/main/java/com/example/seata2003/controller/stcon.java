@@ -14,6 +14,6 @@ public class stcon {
     @PostMapping("ac/de")
     CommomResult decrease(@RequestParam("userid") int userid, @RequestParam("money") int money){
         accountservice.decrease(userid, money);
-        return new CommomResult(200,"");
+        return new CommomResult(200,"成功");
     }
 }

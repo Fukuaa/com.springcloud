@@ -2,6 +2,7 @@ package com.example.seataorder.service;
 
 import com.example.seataorder.dao.orderdao;
 import com.example.seataorder.domain.order;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -14,6 +15,7 @@ public class orderimpl implements orderservice{
     @Resource
     private accountservice accountservice;
     @Override
+    @GlobalTransactional
     public void create(order order) {
         orderdao.create(order);
         storageservice.decrease(order.getProductid(),order.getCount());

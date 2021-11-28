@@ -64,7 +64,7 @@
     <!--<select id="byid" parameterType="int" resultType="payment">
         select * from payment where id = #{id}
     </select>-->
-    <!--<resultMap id="order" type="com.example.seataorder.domain.order">
+    <resultMap id="order" type="com.example.seataorder.domain.order">
         <result property="id" column="id" jdbcType="BIGINT"/>
         <result property="user_id" column="userid" jdbcType="BIGINT"/>
         <result property="product_id" column="productid" jdbcType="BIGINT"/>
@@ -73,10 +73,9 @@
         <result property="status" column="status" jdbcType="INTEGER"/>
     </resultMap>
     <insert id="create">
-        insert into order(id,user_id,product_id,count,money,status)
-        value (#{id},#{userid},#{productid},#{count},#{money},0)
+        insert into 1order(id,product_id,user_id,count,money,status) values(#{id},#{productid},#{userid},#{count},#{money},0);
     </insert>
     <update id="update" >
-        update order set status = 1 where user_id=#{userid} status = #{status};
-    </update>-->
+        update 1order set status = 1 where user_id=#{userid} status = #{status};
+    </update>
 </mapper>
